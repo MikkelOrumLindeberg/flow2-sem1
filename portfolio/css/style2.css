@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+nav{
+    background-color: black;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+  padding-top: 20px;
+  margin-left: 65px;
+  letter-spacing: 2.5px;
+}
+
+.tekstbokse{
+    text-align: center;
+    display: flex;
+    margin: 0;
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    flex-direction: column;
+}
+
+#tekst1{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+   
+
+}
+
+#mobil{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#nummer{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+#email{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+#mikkelemail {
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.arbejde-menu{
+    display: flex;
+    flex-direction: row;
+    align-self: baseline;
+}
+
+#mitarbejde{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left: 65px;
+    margin-right: 45px;
+}
+
+#xmenu{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 20px;
+    font-weight: 100px;
+    padding-top: 28px;
+    margin-right: 45px;
+}
+
+#etsemester{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 15px;
+    padding-top: 31.5px;
+    margin-right: 70px;
+    letter-spacing: 1px;
+}
+
+#tosemester{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 15px;
+    padding-top: 31.5px;
+    margin-right: 70px;
+    letter-spacing: 1px;
+}
+
+#tresemester{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 15px;
+    padding-top: 31.5px;
+    margin-right: 70px;
+    letter-spacing: 1px;
+}
+
+#firesemester{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 15px;
+    padding-top: 31.5px;
+    letter-spacing: 1px;
+}
+
+main{
+    width: 100vw;
+    height: 70vh;
+}
+
+.firkanter{
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 55px;
+    padding-left: 170px;
+    
+}
+
+.bokstekst{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+#tekstet{
+color: white;
+font-family: helvetica, arial, sans-serif;
+font-size: 14px;
+display: flex;
+padding-left: 261px;
+margin-right: 98px;
+letter-spacing: 1px;
+}
+
+#tekstto{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    margin-right: 98px;
+    letter-spacing: 1px;
+}
+
+#teksttre{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    margin-right: 98px;
+    letter-spacing: 1px;
+}
+
+#tekstfire{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    letter-spacing: 1px;
+}
+
+.firkanterto{
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 170px;
+    padding-top: 50px;
+    letter-spacing: 1px;
+}
+
+
+.bokstekst2{
+    display: flex;
+    flex-direction: row;
+     padding-top: 10px;
+}
+    
+    #tekstett{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    padding-left: 261px;
+    margin-right: 98px;
+    letter-spacing: 1px;
+    }
+    
+    #teksttoo{
+        color: white;
+        font-family: helvetica, arial, sans-serif;
+        font-size: 14px;
+        display: flex;
+        margin-right: 98px;
+        letter-spacing: 1px;
+    }
+    
+    #teksttree{
+        color: white;
+        font-family: helvetica, arial, sans-serif;
+        font-size: 14px;
+        display: flex;
+        margin-right: 98px;
+        letter-spacing: 1px;
+    }
+    
+    #tekstfiree{
+        color: white;
+        font-family: helvetica, arial, sans-serif;
+        font-size: 14px;
+        display: flex;
+        letter-spacing: 1px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

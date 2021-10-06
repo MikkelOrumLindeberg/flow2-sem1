@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+nav{
+    background-color: black;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav1 a{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+  padding-top: 20px;
+  margin-left: 65px;
+  letter-spacing: 2.5px;
+}
+
+.nav2 {
+    display: flex;
+    padding-top: 10px;
+}
+.nav3 a{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding-top: 20px;
+    padding-right: 65px;
+    letter-spacing: 2.5px;
+}
+
+.arrow{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+  padding-top: 20px;
+  margin-left: 65px;
+  letter-spacing: 2.5px;
+}
+main{
+    width: 100vw;
+    height: 70vh;
+    background-image: url(/img/Mikkel\ redigeret.jpg);
+    background-size: 360px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fornavn {
+    color: white;
+    font-family: helvetica;
+    font-size: 70px;
+    padding-top: 136px;
+    padding-left: 248px;
+    letter-spacing: -5px;
+}
+
+.efternavn {
+    color: white;
+    font-family: helvetica;
+    font-size: 70px;
+  margin-top: -28px;
+    margin-left: 328px;
+    letter-spacing: -5px;
+}
+
+.portfolio-tekst{
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding-left: 335px;
+    margin-top: -16px;
+}
+
+.union1{
+    display: flex;
+    padding-left: 868px;
+    margin-top: -296px;
+}
+
+.union2{
+    display: flex;
+    padding-left:868px;
+    margin-top: 48.7vh;
+}
+
+.union3{
+    display: flex;
+    padding-left: 238px;
+    margin-top: -352px;
+   
+}
+
+.tekst1{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: flex;
+    padding-left: 945px;
+    margin-top: 140px;
+}
+
+.tekst2{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding-left: 945px;
+    margin-top: 7px
+}
+
+.x1{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 20px;
+    padding-left: 1060px;
+    margin-top: 25px;
+
+}
+
+.x2{
+    color: white;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 20px;
+    padding-left: 1060px;
+    margin-top: -130px;
+
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.foot1 a{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+  padding-bottom: 20px;
+  margin-left: 65px;
+  letter-spacing: 2.5px;
+}
+
+.foot2 a{
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    padding-bottom: 20px;
+    padding-right: 65px;
+    letter-spacing: 2.5px;
+}
